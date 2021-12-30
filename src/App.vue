@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     initWebSocket () {
-      const wsuri = 'ws://127.0.0.1:9898'
+      const wsuri = 'ws://143.198.234.167:9898'
       this.websock = new WebSocket(wsuri)
       this.websock.onmessage = this.websocketonmessage
       this.websock.onopen = this.websocketonopen
